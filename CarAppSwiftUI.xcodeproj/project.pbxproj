@@ -13,6 +13,8 @@
 		6ADB7C6724CB82C300137D23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ADB7C6624CB82C300137D23 /* Assets.xcassets */; };
 		6ADB7C6A24CB82C300137D23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ADB7C6924CB82C300137D23 /* Preview Assets.xcassets */; };
 		6ADB7C6D24CB82C300137D23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ADB7C6B24CB82C300137D23 /* LaunchScreen.storyboard */; };
+		6ADB7C7524CB82D400137D23 /* CarAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ADB7C7424CB82D400137D23 /* CarAssets.xcassets */; };
+		6ADB7C7924CB83C300137D23 /* carData.json in Resources */ = {isa = PBXBuildFile; fileRef = 6ADB7C7824CB83C300137D23 /* carData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		6ADB7C6924CB82C300137D23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6ADB7C6C24CB82C300137D23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6ADB7C6E24CB82C300137D23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ADB7C7424CB82D400137D23 /* CarAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CarAssets.xcassets; sourceTree = "<group>"; };
+		6ADB7C7824CB83C300137D23 /* carData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = carData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				6ADB7C6624CB82C300137D23 /* Assets.xcassets */,
 				6ADB7C6B24CB82C300137D23 /* LaunchScreen.storyboard */,
 				6ADB7C6E24CB82C300137D23 /* Info.plist */,
+				6ADB7C7824CB83C300137D23 /* carData.json */,
+				6ADB7C7424CB82D400137D23 /* CarAssets.xcassets */,
 				6ADB7C6824CB82C300137D23 /* Preview Content */,
 			);
 			path = CarAppSwiftUI;
@@ -133,9 +139,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ADB7C7924CB83C300137D23 /* carData.json in Resources */,
 				6ADB7C6D24CB82C300137D23 /* LaunchScreen.storyboard in Resources */,
 				6ADB7C6A24CB82C300137D23 /* Preview Assets.xcassets in Resources */,
 				6ADB7C6724CB82C300137D23 /* Assets.xcassets in Resources */,
+				6ADB7C7524CB82D400137D23 /* CarAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  Car.swift
 //  CarAppSwiftUI
 //
 //  Created by Georgi Malkhasyan on 7/24/20.
@@ -8,17 +8,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
-
-    
+struct Car: View {
     var body: some View {
-    Text("Car")
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct Car_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Car()
     }
 }
-
