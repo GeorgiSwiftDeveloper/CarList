@@ -16,7 +16,7 @@ struct CarDetails: View {
         Form  {
             Section(header: Text("Care Details")){
                 
-                Image(selectedCar.imageName).resizable().aspectRatio(contentMode: .fit).padding()
+                Image(selectedCar.imageName).resizable().aspectRatio(contentMode: .fit).cornerRadius(20).padding()
                 
                 Text("\(selectedCar.name)").bold()
                 
@@ -25,7 +25,9 @@ struct CarDetails: View {
                 HStack{
                     Text("Hybrid").bold().foregroundColor(.blue)
                     Spacer()
-                    Image(systemName: selectedCar.isHybrid ? "checkmard.circle": "xmark.circle")
+                    
+                    Image(systemName: selectedCar.isHybrid ? "checkmark.circle": "xmark.circle")
+                        .foregroundColor(selectedCar.isHybrid ? .green: .red)
                 }
                 
                 
