@@ -6,29 +6,30 @@
 //  Copyright © 2020 Malkhasyan. All rights reserved.
 //
 
-import UIKit
 import SwiftUI
+import UIKit
 
 
-var carData: [Car] = loadJson("carData.json")
+
+var cardData: [Car] = loadJson("carData.json")
 
 
-func loadJson<T: Decodable>(_ filename: String ) -> T {
+func loadJson<T: Decodable>(_ fileName: String ) -> T {
     let data : Data
     
-    guard let file = Bundle.main.url(forResource: filename, withExtension: nil) else{fatalError("\(filename) not found")}
-    
-    do {
-       data =  try Data(contentsOf: file)
-    } catch  {
-        fatalError("Could not find url")
+    guard let file =  Bundle.main.url(forResource: fileName, withExtension: nil) else {
+        fatalError()
     }
     
     do {
-        return try JSONDecoder().decode(T.self, from: data)
-        
+      data =   try Data(contentsOf: file)
     } catch  {
-        fatalError("unable to retrun \(filename): (error)")
+            fatalError()
     }
     
+    do {
+        return  try JSONDecoder().decode(T.self, from: data)
+    } catch  {
+        fatalError()
+    }
 }

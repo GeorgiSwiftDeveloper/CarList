@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  Car.swift
 //  CarAppSwiftUI
 //
 //  Created by Georgi Malkhasyan on 7/24/20.
@@ -7,16 +7,14 @@
 //
 
 import SwiftUI
-import UIKit
 
-struct Car: Codable, Identifiable {
+
+class Car: Codable, Identifiable{
+    
     
     var id: String
     var name: String
     var description: String
-    var isHybrid: Bool
-    
-    
     var imageName: String
     
     
