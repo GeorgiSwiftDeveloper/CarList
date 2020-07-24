@@ -17,5 +17,7 @@ class Car: Codable, Identifiable{
     var description: String
     var imageName: String
     
+    var isHybrid: Bool
+    
     
 }

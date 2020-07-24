@@ -14,11 +14,13 @@ struct ContentView: View {
     
     
     var body: some View {
+        NavigationView{
             List{
                 ForEach(carStore.car)  { car in
                     CarList(car: car)
                 }
             }
+        }
     }
 }
 
@@ -33,11 +35,13 @@ struct CarList: View {
     
     var car : Car
     var body: some View {
+        NavigationLink(destination:CarDetails(selectedCar: car) ){
         HStack{
             Image(car.imageName)
                 .resizable().aspectRatio(contentMode: .fit)
                 .frame(width: 100, height: 100)
             Text("\(car.name)")
         }
+    }
     }
 }
