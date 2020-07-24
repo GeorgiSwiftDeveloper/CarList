@@ -17,6 +17,7 @@
 		6ADB7C7924CB83C300137D23 /* carData.json in Resources */ = {isa = PBXBuildFile; fileRef = 6ADB7C7824CB83C300137D23 /* carData.json */; };
 		6ADB7C8724CB989200137D23 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADB7C8624CB989200137D23 /* Car.swift */; };
 		6ADB7C8924CB98E800137D23 /* CarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADB7C8824CB98E800137D23 /* CarData.swift */; };
+		6ADB7C8B24CB9A9400137D23 /* CarStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADB7C8A24CB9A9400137D23 /* CarStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		6ADB7C7824CB83C300137D23 /* carData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = carData.json; sourceTree = "<group>"; };
 		6ADB7C8624CB989200137D23 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Car.swift; path = ../Car.swift; sourceTree = "<group>"; };
 		6ADB7C8824CB98E800137D23 /* CarData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarData.swift; sourceTree = "<group>"; };
+		6ADB7C8A24CB9A9400137D23 /* CarStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				6ADB7C6224CB82C000137D23 /* SceneDelegate.swift */,
 				6ADB7C8624CB989200137D23 /* Car.swift */,
 				6ADB7C8824CB98E800137D23 /* CarData.swift */,
+				6ADB7C8A24CB9A9400137D23 /* CarStore.swift */,
 				6ADB7C6424CB82C000137D23 /* ContentView.swift */,
 				6ADB7C6624CB82C300137D23 /* Assets.xcassets */,
 				6ADB7C6B24CB82C300137D23 /* LaunchScreen.storyboard */,
@@ -164,6 +167,7 @@
 				6ADB7C6324CB82C000137D23 /* SceneDelegate.swift in Sources */,
 				6ADB7C8924CB98E800137D23 /* CarData.swift in Sources */,
 				6ADB7C8724CB989200137D23 /* Car.swift in Sources */,
+				6ADB7C8B24CB9A9400137D23 /* CarStore.swift in Sources */,
 				6ADB7C6524CB82C000137D23 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,9 +10,15 @@ import SwiftUI
 
 struct ContentView: View {
 
+    @ObservedObject var carStore = CarStore.init(car: cardData)
+    
     
     var body: some View {
-    Text("Car")
+            List{
+                ForEach(carStore.car)  { car in
+                    CarList(car: car)
+                }
+            }
     }
 }
 
@@ -22,3 +28,16 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
+
+struct CarList: View {
+    
+    var car : Car
+    var body: some View {
+        HStack{
+            Image(car.imageName)
+                .resizable().aspectRatio(contentMode: .fit)
+                .frame(width: 100, height: 100)
+            Text("\(car.name)")
+        }
+    }
+}
